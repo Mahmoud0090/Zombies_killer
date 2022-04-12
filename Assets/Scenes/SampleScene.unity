@@ -123,11 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 23800000, guid: 4668be6b684ebe04d89da5e3c869dceb, type: 2}
---- !u!20 &40379648 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 3984007064239244578, guid: ee9d61a0ce4d58a41b61cad31d34865d, type: 3}
-  m_PrefabInstance: {fileID: 3984007064208318498}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &40942338 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3984007064240790304, guid: ee9d61a0ce4d58a41b61cad31d34865d, type: 3}
@@ -825,25 +820,6 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 82096aab38f01cb40a1cbf8629a810ba, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44884af1ac1d64d42902da40268ba120, type: 3}
---- !u!1 &1101135760 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7625565673966385931, guid: ee9d61a0ce4d58a41b61cad31d34865d, type: 3}
-  m_PrefabInstance: {fileID: 3984007064208318498}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1101135764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1101135760}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f4ba39a2908d7b4e9520d2266e534a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  FPCamera: {fileID: 40379648}
-  range: 100
 --- !u!4 &1135774712 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 5862bbfe91a75054ca72c13b555b6ac5, type: 3}
@@ -883,7 +859,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 10}
   m_SizeDelta: {x: 25, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1181447675
@@ -1694,7 +1670,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1709915648369841347, guid: 77580bad0a6014d4590b0a6b5bcfacc1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.02
+      value: 1.45
       objectReference: {fileID: 0}
     - target: {fileID: 1709915648369841347, guid: 77580bad0a6014d4590b0a6b5bcfacc1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1731,10 +1707,6 @@ PrefabInstance:
     - target: {fileID: 1709915648369841352, guid: 77580bad0a6014d4590b0a6b5bcfacc1, type: 3}
       propertyPath: m_Name
       value: Enemy
-      objectReference: {fileID: 0}
-    - target: {fileID: 1709915648369841359, guid: 77580bad0a6014d4590b0a6b5bcfacc1, type: 3}
-      propertyPath: m_StoppingDistance
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77580bad0a6014d4590b0a6b5bcfacc1, type: 3}
