@@ -14,6 +14,5 @@ public class PlayerHealth : MonoBehaviour
         {
             Debug.Log("you are dead");
         }
-    }
-    
+    } 
 }
