@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3984007064230032102}
   - component: {fileID: 9102761587948131476}
   - component: {fileID: 980318643633202681}
+  - component: {fileID: 6009159257163561848}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -62,10 +63,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2.661024
+  m_Radius: 0.61511916
+  m_Height: 3.8516355
   m_Direction: 1
-  m_Center: {x: 0, y: 0.35358858, z: 0}
+  m_Center: {x: -3.1956181e-16, y: 0.94889426, z: -0.11511916}
 --- !u!114 &3984007064230032102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85,7 +86,7 @@ MonoBehaviour:
     StrafeSpeed: 4
     RunMultiplier: 2
     RunKey: 304
-    JumpForce: 50
+    JumpForce: 70
     SlopeCurveModifier:
       serializedVersion: 2
       m_Curve:
@@ -160,6 +161,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d2b168c326c0604d8f15d97278d73d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOverCanvas: {fileID: 0}
+--- !u!114 &6009159257163561848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3984007064241276676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94df30ae10382e04aab4314c340e0ab2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3984007064241276678
 GameObject:
   m_ObjectHideFlags: 0
@@ -188,7 +202,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3984007064241276678}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 1.34, z: 0.12}
+  m_LocalPosition: {x: -0, y: 2.65, z: 0.12}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7104607875281838513}
