@@ -2115,11 +2115,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 5862bbfe91a75054ca72c13b555b6ac5, type: 3}
   m_PrefabInstance: {fileID: 949332926}
   m_PrefabAsset: {fileID: 0}
---- !u!20 &962749824 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 3984007064239244578, guid: ee9d61a0ce4d58a41b61cad31d34865d, type: 3}
-  m_PrefabInstance: {fileID: 3984007064208318498}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &969941462
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3582,6 +3577,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5290684820a94548bedb95083785116, type: 3}
+--- !u!114 &1867664069 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4847686533025700663, guid: ee9d61a0ce4d58a41b61cad31d34865d, type: 3}
+  m_PrefabInstance: {fileID: 3984007064208318498}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf95d19fca323cf449591b4b1f4b4cdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1869161027
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4311,10 +4317,6 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 40942338}
-    - target: {fileID: 1709915648369841346, guid: 77580bad0a6014d4590b0a6b5bcfacc1, type: 3}
-      propertyPath: chaseRange
-      value: 15
-      objectReference: {fileID: 0}
     - target: {fileID: 1709915648369841347, guid: 77580bad0a6014d4590b0a6b5bcfacc1, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -4372,14 +4374,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1101135764, guid: ee9d61a0ce4d58a41b61cad31d34865d, type: 3}
+      propertyPath: ammoSlot
+      value: 
+      objectReference: {fileID: 1867664069}
     - target: {fileID: 980318643633202681, guid: ee9d61a0ce4d58a41b61cad31d34865d, type: 3}
       propertyPath: gameOverCanvas
       value: 
       objectReference: {fileID: 1569494994}
-    - target: {fileID: 3984007064239244578, guid: ee9d61a0ce4d58a41b61cad31d34865d, type: 3}
-      propertyPath: field of view
-      value: 60
-      objectReference: {fileID: 0}
     - target: {fileID: 3984007064240790304, guid: ee9d61a0ce4d58a41b61cad31d34865d, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -4428,13 +4430,5 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 6009159257163561848, guid: ee9d61a0ce4d58a41b61cad31d34865d, type: 3}
-      propertyPath: myCamera
-      value: 
-      objectReference: {fileID: 962749824}
-    - target: {fileID: 6009159257163561848, guid: ee9d61a0ce4d58a41b61cad31d34865d, type: 3}
-      propertyPath: fpsCamera
-      value: 
-      objectReference: {fileID: 962749824}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ee9d61a0ce4d58a41b61cad31d34865d, type: 3}
