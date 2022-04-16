@@ -81,6 +81,9 @@ public class WeaponSwitcher : MonoBehaviour
             if(weaponIndex == currentWeapon)
             {
                 weapon.gameObject.SetActive(true);
+                //WeaponZoom weaponZoom = GetComponentInChildren<WeaponZoom>();
+                //if (weaponZoom == null) { return; }
+                //weaponZoom.ResetZoom();
             }
             else
             {
