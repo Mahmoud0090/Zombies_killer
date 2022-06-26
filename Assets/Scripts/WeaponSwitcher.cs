@@ -23,7 +23,6 @@ public class WeaponSwitcher : MonoBehaviour
             SetWeaponActive();
         }
     }
-
     private void ProcessScrollWheel()
     {
         if(Input.GetAxis("Mouse ScrollWheel") < 0)
@@ -48,9 +47,7 @@ public class WeaponSwitcher : MonoBehaviour
                 currentWeapon--;
             }
         }
-
     }
-
     private void ProcessKeyInput()
     {
         if (Input.GetKeyDown(KeyCode.Alpha1))
@@ -71,7 +68,6 @@ public class WeaponSwitcher : MonoBehaviour
         }
 
     }
-
     private void SetWeaponActive()
     {
         int weaponIndex = 0;
@@ -81,7 +77,7 @@ public class WeaponSwitcher : MonoBehaviour
             if(weaponIndex == currentWeapon)
             {
                 weapon.gameObject.SetActive(true);
-                //WeaponZoom weaponZoom = GetComponentInChildren<WeaponZoom>();
+                //WeaponZoom weaponZoom = GetComponentInChildren<WeaponZoom>(); // instead of using Ondiable in WeaponZoom class
                 //if (weaponZoom == null) { return; }
                 //weaponZoom.ResetZoom();
             }

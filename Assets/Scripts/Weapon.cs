@@ -19,7 +19,6 @@ public class Weapon : MonoBehaviour
     {
         canShoot = true;
     }
-
     // Update is called once per frame
     void Update()
     {
@@ -28,7 +27,6 @@ public class Weapon : MonoBehaviour
             StartCoroutine(Shoot());
         }
     }
-
     IEnumerator Shoot()
     {
         canShoot = false;
@@ -63,7 +61,6 @@ public class Weapon : MonoBehaviour
             return;
         }
     }
-
     void CreatHitImpact(RaycastHit hit)
     {
         GameObject effect = Instantiate(hitEffect, hit.point, Quaternion.LookRotation(hit.normal));

@@ -18,7 +18,6 @@ public class WeaponZoom : MonoBehaviour
     {
         ZoomOut();
     }
-
     // Update is called once per frame
     void Update()
     {
@@ -32,7 +31,6 @@ public class WeaponZoom : MonoBehaviour
             {
                 ZoomIn();
             }
-
         }
     }
 
@@ -43,7 +41,6 @@ public class WeaponZoom : MonoBehaviour
         fpsController.mouseLook.XSensitivity = zoomOutSensitivity;
         fpsCamera.fieldOfView = zoomOutFOV;
     }
-
     private void ZoomIn()
     {
         zoomOn = true;
@@ -51,12 +48,9 @@ public class WeaponZoom : MonoBehaviour
         fpsController.mouseLook.XSensitivity = zoonInSensitivity;
         fpsCamera.fieldOfView = zoomInFOV;
     }
-
+    // this methode is redandant but we can call from WeaponSwitcher class instead of using OnDisable methode above
     public void ResetZoom()
     {
-        zoomOn = false;
-        fpsController.mouseLook.XSensitivity = zoomOutSensitivity;
-        fpsController.mouseLook.XSensitivity = zoomOutSensitivity;
-        fpsCamera.fieldOfView = zoomOutFOV;
+        ZoomOut();
     }
 }
