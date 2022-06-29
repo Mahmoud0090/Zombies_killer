@@ -36,9 +36,4 @@ public class Ammo : MonoBehaviour
         }
         return null;
     }
-
-    public void IncreaseAmmo(int Inc)
-    {
-        
-    }
 }
